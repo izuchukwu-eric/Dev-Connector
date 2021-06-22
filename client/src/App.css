@@ -216,6 +216,13 @@ img {
 
 .round-img {
   border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+}
+
+.skills {
+  /* margin-left: 15rem; */
+  /* align-items: center; */
 }
 
 .line {
@@ -351,7 +358,7 @@ button {
 
 /* Profiles Page */
 .profile {
-  display: grid;
+  display: flex;
   grid-template-columns: 2fr 4fr 2fr;
   align-items: center;
   grid-gap: 2rem;
